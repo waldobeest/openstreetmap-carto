@@ -5,19 +5,19 @@
 @service-fill: @residential-fill;
 @living-street-fill: #ededed;
 @pedestrian-fill: #dddde8;
-@raceway-fill: pink;
+@raceway-fill: #999999;
 @road-fill: #ddd;
-@footway-fill: salmon;
+@footway-fill: #779b77;
 @footway-fill-noaccess: #bbbbbb;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #bbbbbb;
 @cycleway-fill: blue;
-@cycleway-fill-noaccess: #9999ff;
+@cycleway-fill-noaccess: #334233;
 @bridleway-fill: green;
 @bridleway-fill-noaccess: #aaddaa;
-@track-fill: #996600;
-@track-fill-noaccess: #e2c5bb;
-@aeroway-fill: #bbc;
+@track-fill: #779b77;
+@track-fill-noaccess: #99c799;
+@aeroway-fill: #b3e0b3;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
@@ -46,8 +46,8 @@
 @service-construction: #aaa;
 
 @destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
+@private-marking: #556f55;
+@private-marking-for-red: #445844;
 
 @tunnel-casing: grey;
 @bridge-casing: black;

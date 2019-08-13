@@ -15,16 +15,16 @@
 @built-up-z12: #d0d0d0;
 @residential: #e0dfdf;      // Lch(89,0,0)
 @residential-line: #b9b9b9; // Lch(75,0,0)
-@retail: #ffd6d1;           // Lch(89,16,30)
-@retail-line: #d99c95;      // Lch(70,25,30)
-@commercial: #f2dad9;       // Lch(89,8.5,25)
-@commercial-line: #d1b2b0;  // Lch(75,12,25)
-@industrial: #ebdbe8;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
-@industrial-line: #c6b3c3;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
+@retail: #cdebb0;           // Lch(89,16,30)
+@retail-line: #aed1a0;      // Lch(70,25,30)
+@commercial: #c9e1bf;       // Lch(89,8.5,25)
+@commercial-line: #def6c0;  // Lch(75,12,25)
+@industrial: #99c799;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
+@industrial-line: #b3e0b3;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
 @farmland: #eef0d5;         // Lch(94,14,112)
 @farmland-line: #c7c9ae;    // Lch(80,14,112)
-@farmyard: #f5dcba;         // Lch(89,20,80)
-@farmyard-line: #d1b48c;    // Lch(75,25,80)
+@farmyard: #b3e0b3;         // Lch(89,20,80)
+@farmyard-line: #b3e0b3;    // Lch(75,25,80)
 
 // --- Transport ----
 
@@ -35,7 +35,7 @@
 @parking-outline: saturate(darken(@parking, 40%), 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
-@rest_area: #efc8c8; // also services
+@rest_area: #b5e3b5; // also services
 
 // --- Other ----
 
@@ -52,9 +52,9 @@
 @power-line: darken(@industrial-line, 5%);
 @sand: #f5e9c6;
 @societal_amenities: #ffffe5;   // Lch(99,13,109)
-@tourism: #660033;
+@tourism: #46673b;
 @quarry: #c5c3c3;
-@military: #f55;
+@military: #ebdbe8;
 @beach: #fff1ba;
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
@@ -588,7 +588,7 @@
   [feature = 'amenity_police'][zoom >= 8][way_pixels > 900],
   [feature = 'amenity_fire_station'][zoom >= 13],
   [feature = 'amenity_police'][zoom >= 13] {
-    polygon-fill: #F3E3DD;
+    polygon-fill: #ddf1dd;
     line-color: @military;
     line-opacity: 0.24;
     line-width: 1.0;
